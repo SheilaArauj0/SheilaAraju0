@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 #include <conio.h>
 #include <locale.h>
 
 // Seção de Declarações das Variáveis de uma Equação do 2º grau
 
-int num1, 
+  int num1, 
       num2, 
       num3, 
       x1, 
