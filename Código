@@ -31,3 +31,25 @@ float main(){
 	
    resultado = num2 * num2 - 4 * num1 * num3;
     printf("Valor de Delta: %.2f", resultado);
+ 
+ if(resultado<=-1)
+{
+
+   	printf("\nNão há raizes reais");
+
+}
+   
+   else
+
+{
+   
+    x1 = - num2 + (sqrt(resultado)) / 2 * num1;
+    x2 = - num2 - (sqrt(resultado)) / 2 * num1;
+    
+    printf("\nO valor de x1: %.2f", x1);
+    printf("\nO valor de x2: %.2f", x2);
+
+}
+   	return 0;
+    getch();
+}
