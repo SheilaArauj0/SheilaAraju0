@@ -3,3 +3,15 @@
 #include <math.h>
 #include <conio.h>
 #include <locale.h>
+
+// Seção de Declarações das Variáveis de uma Equação do 2º grau
+
+float num1, 
+    num2, 
+	num3, 
+	x1, 
+	x2,
+	resultado,
+    status;
+	
+// Seção de Comandos, procedimentos, funções, operadores, etc..
