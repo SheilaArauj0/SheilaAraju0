@@ -18,7 +18,7 @@ int num1,
 
 int main(){
 
-   setlocale(LC_ALL,"Portuguese");
+   setlocale(LC_ALL," ");
 
    printf("Digite o valor de a:");
     scanf("%d", &num1);
